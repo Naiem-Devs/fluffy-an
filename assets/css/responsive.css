@@ -1,32 +1,564 @@
 /* Big screen :1200px. */
+
 @media (min-width: 1200px) and (max-width: 1500px) {
-
-
+    main {
+        overflow: hidden;
+    }
+    i.buruieni-front img {
+        width: 920px;
+    }
+    i.buruieni-backsvg img {
+        width: 700px;
+    }
+    .ticket_man {
+        margin: unset;
+        transform: translateY(130px);
+    }
+    .ticket_cont {
+        transform: translateY(-135px) scale(.8);
+    }
+    .hero_img {
+        transform: scale(0.8);
+    }
+    .hero_area .container .row {
+        padding-bottom: 350px;
+    }
+    .hero_left {
+        transform: scale(.8);
+    }
+    .about_cont {
+        font-size: 20px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .rodemap_cont ul li p {
+        font-size: 18px;
+    }
+    .rodemap_cont {
+        max-width: 630px;
+        margin: auto;
+    }
+    .rodemap_img {
+        transform: scale(.9);
+        height: 100%;
+    }
+    i.Planet {
+        bottom: 0;
+    }
 }
 
 
 /* Normal screen :992px. */
+
 @media (min-width: 992px) and (max-width: 1200px) {
-
-
+    main {
+        overflow: hidden;
+    }
+    body {
+        font-size: 18px;
+    }
+    .logo-area a {
+        font-size: 28px;
+    }
+    .menu-area ul {
+        max-width: 498px;
+    }
+    i.buruieni-front img {
+        width: 694px;
+    }
+    .buruieni-front {
+        margin-left: -87px;
+    }
+    i.buruieni-backsvg img {
+        width: 578px;
+    }
+    i.buruieni-backsvg {
+        margin-left: -73px;
+    }
+    .ticket_man {
+        margin: unset;
+        transform: translateY(159px);
+    }
+    .ticket_cont {
+        transform: translateY(-25px) scale(.7);
+        font-size: 21px;
+        margin-left: -35px;
+    }
+    .hero_img {
+        transform: scale(0.7);
+    }
+    .hero_area .container .row {
+        padding: 20px 0 256px;
+    }
+    .hero_left {
+        transform: scale(.8);
+        margin-left: 72px;
+    }
+    .about_cont {
+        font-size: 20px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .rodemap_cont ul li p {
+        font-size: 18px;
+    }
+    .rodemap_cont {
+        max-width: 570px;
+        margin: auto;
+        padding-left: 20px;
+    }
+    .rodemap_img {
+        transform: scale(.8);
+        height: 100%;
+    }
+    i.Planet {
+        bottom: 0;
+    }
+    .connect_btn button {
+        font-size: 18px;
+        padding: 6px 10px;
+        line-height: 1.2;
+    }
+    i.coat_img {
+        left: 19%;
+        transform: translateX(-80%) scale(.8);
+        top: -145px;
+    }
+    .collapse_title h3 {
+        font-size: 22px;
+    }
+    .footer_cont p {
+        width: max-content;
+    }
 }
 
- 
+
 /* Tablet screen :768px. */
+
 @media (min-width: 768px) and (max-width: 991px) {
-
-
+    i.buruieni-backsvg i {
+        width: 700px;
+    }
+    i.buruieni-front img {
+        width: 679px;
+    }
+    i.buruieni-backsvg img {
+        width: 694px;
+        margin-left: -181px;
+    }
+    i.coat_img {
+        transform: scale(.7);
+        top: -58px;
+        left: 13%;
+    }
+    .hero_img {
+        transform: scale(.6);
+        margin-left: -60px;
+    }
+    i.cont_bg img {
+        width: 466px;
+    }
+    .hero_left {
+        margin-left: 51px;
+    }
+    .Mint {
+        display: flex;
+        align-items: center;
+    }
+    .Mint button {
+        font-size: 20px;
+    }
+    .hero_cont h1 {
+        font-size: 30px;
+    }
+    .hero_cont p {
+        font-size: 20px;
+    }
+    .ticket-wrp i img {
+        width: 649px;
+    }
+    i.buruieni-front {
+        left: -45px;
+    }
+    i.ticket-bg img {
+        width: 1121px;
+    }
+    i.ticket-bg {}
+    section.hero_area {
+        overflow: hidden;
+    }
+    .ticket_man {
+        transform: translateY(5px);
+    }
+    i.buruieni-backsvg {}
+    .ticket_cont {
+        display: unset;
+    }
+    .ticket-wrp {
+        transform: scale(.7) translateX(-84px);
+    }
+    .ticket-wrp i {
+        /* left: auto; */
+        /* right: 0; */
+        /* transform: unset; */
+    }
+    .NFTickets h2 {
+        font-size: 22px;
+    }
+    .NFTickets {
+        margin-top: 0;
+        width: 338px;
+        transform: translate(-57px, 18px);
+    }
+    .NFTickets p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        line-height: 1.3;
+    }
+    .hero_area .container .row {
+        padding: 10px 0 151px;
+    }
+    .about_img i {
+        width: 250px;
+        height: 250px;
+    }
+    .about_cont {
+        font-size: 18px;
+        margin: auto;
+        max-width: 350px;
+    }
+    .rodemap_area h1 {
+        font-size: 60px;
+    }
+    .rodemap_cont h3 {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+    .rodemap_cont ul li p {
+        font-size: 14px;
+    }
+    .rodemap_cont {
+        border-width: 2px;
+        padding: 25px 15px 15px;
+        max-width: 90%;
+        margin: auto;
+    }
+    .rodemap_cont i img {
+        width: 100px;
+    }
+    .rodemap_img .roket img {
+        width: 174px;
+    }
+    i.Planet img {
+        width: 160px;
+    }
+    i.Planet {
+        bottom: 85px;
+    }
+    section.Rarity_area {
+        padding: 100px;
+    }
+    .rolling_wrp {}
+    section.rolling_area {}
+    .logo-area a {
+        font-size: 24px;
+    }
+    .footer_cont p {
+        font-size: 14px;
+    }
+    .social_link {
+        transform: scale(.8);
+    }
+    .team_blk i {
+        width: 200px;
+        height: 200px;
+    }
+    .team_blk a {
+        font-size: 24px;
+    }
+    .team_blk span {
+        font-size: 18px;
+        opacity: .9;
+    }
+    .footer_cont {
+        width: max-content;
+    }
+    footer.footer {
+        padding: 30px 0 20px;
+    }
+    .team_area {
+        padding: 78px 0 165px;
+    }
+    .menu-area nav ul li a {
+        font-size: 15px;
+    }
+    .connect_btn button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
 }
 
- 
+
 /* small screen :320px. */
-@media (max-width: 767px) {
 
- 
+@media (max-width: 767px) {
+    .header-area {
+        padding: 20px 0 0;
+    }
+    i.buruieni-backsvg i {
+        width: 700px;
+    }
+    i.buruieni-front img {}
+    i.buruieni-backsvg img {}
+    i.coat_img {}
+    .hero_img {
+        transform: scale(.3);
+        position: absolute;
+        top: 16%;
+        left: -35%;
+    }
+    i.cont_bg img {
+        width: 466px;
+    }
+    .hero_left {
+        transform: scale(.8);
+    }
+    .Mint {
+        display: flex;
+        align-items: center;
+    }
+    .Mint button {
+        font-size: 20px;
+    }
+    .hero_cont h1 {
+        font-size: 30px;
+    }
+    .hero_cont p {
+        font-size: 20px;
+    }
+    .ticket-wrp i img {
+        width: 317px;
+    }
+    i.buruieni-front {}
+    i.ticket-bg img {
+        width: 970px;
+    }
+    i.ticket-bg {}
+    section.hero_area {
+        overflow: hidden;
+    }
+    .ticket_man {
+        display: none;
+    }
+    i.buruieni-backsvg {}
+    .ticket_cont {
+        margin-left: unset;
+        justify-content: center;
+        transform: translateY(90px);
+    }
+    .ticket-wrp {
+        transform: translate(187px, -12px);
+    }
+    .ticket-wrp i {
+        width: 446px;
+        display: block;
+    }
+    .NFTickets h2 {
+        font-size: 16px;
+    }
+    .NFTickets {
+        width: 243px;
+        margin: unset;
+        max-width: unset;
+        margin-top: 7px;
+    }
+    .NFTickets p {
+        font-size: 10px;
+        margin-bottom: 10px;
+        line-height: 1.3;
+    }
+    .hero_area .container .row {
+        padding: 156px 0 523px;
+    }
+    .about_img i {
+        width: 250px;
+        height: 250px;
+    }
+    .about_cont {
+        font-size: 14px;
+        margin: auto;
+        max-width: 321px;
+        text-align: center;
+    }
+    .about-area {
+        padding: 50px 0;
+    }
+    .about_img {
+        margin-bottom: 25px;
+    }
+    section.about-area .row {
+        flex-direction: column-reverse;
+    }
+    .rodemap_area h1 {
+        font-size: 26px;
+    }
+    .rodemap_cont h3 {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+    .rodemap_cont ul li p {
+        font-size: 14px;
+    }
+    .rodemap_cont {
+        border-width: 2px;
+        padding: 25px 11px 0px;
+        max-width: 90%;
+        margin: auto;
+        padding-left: initial;
+    }
+    .rodemap_cont i img {
+        display: none;
+    }
+    .rodemap_img .roket img {
+        width: 174px;
+    }
+    i.Planet img {
+        width: 160px;
+    }
+    i.Planet {
+        bottom: 85px;
+    }
+    section.Rarity_area {
+        padding: 50px 10px;
+    }
+    .Rarity_blk a {
+        font-size: 22px;
+    }
+    .rolling_wrp {}
+    .rolling_wrp img {
+        height: 150px;
+    }
+    section.rolling_area {}
+    .logo-area a {
+        font-size: 18px;
+    }
+    .footer_cont p {
+        font-size: 14px;
+    }
+    .social_link {
+        transform: scale(.8);
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .team_blk i {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .team_blk a {
+        font-size: 24px;
+    }
+    .team_blk span {
+        font-size: 18px;
+        opacity: .9;
+    }
+    .footer_cont {
+        width: max-content;
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    footer.footer {
+        padding: 30px 0 50px;
+    }
+    .team_area {
+        padding: 54px 0 165px;
+    }
+    .menu-area nav ul li a {
+        font-size: 15px;
+    }
+    .connect_btn button {
+        font-size: 14px;
+        padding: 4px 10px 2px;
+    }
+    .rodemap_img {
+        display: none;
+    }
+    section.rodemap_area {
+        padding: 50px 0;
+    }
+    .collapse_title h3 {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .collapse_text p {
+        font-size: 14px;
+    }
+    .collapse_blk {
+        border-width: 1px;
+        padding: 15px;
+        height: 53px;
+    }
+    .collapse_title i {
+        display: block;
+        transform: scale(.7);
+        margin-top: -5px;
+    }
+    section.Rarity_area .title {
+        margin-bottom: 20px;
+    }
+    .team_blk {
+        margin-bottom: 40px;
+    }
+    h2.title {
+        margin-bottom: 20px;
+    }
+    div#footer_logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
- 
+
+
 /* Large Mobile screen :480px. */
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
+    .container {
+        width: 450px
+    }
+    .logo-area a {
+        font-size: 21px;
+    }
+    .connect_btn button {
+        font-size: 16px;
+        width: max-content;
+        padding: 10px 10px 8px;
+    }
+    .ticket-wrp i img {
+        width: 380px;
+    }
+    .NFTickets p {
+        font-size: 13px;
+    }
+    .NFTickets {
+        width: 290px;
+    }
+    .ticket-wrp {
+        transform: translate(180px, -14px);
+    }
+    .about_cont {
+        font-size: 16px;
+    }
+    .rodemap_cont ul li p {
+        font-size: 16px;
+    }
+    .rodemap_cont h3 {
+        font-size: 22px;
+    }
+    .Rarity_blk i {
+        display: block;
+        max-width: 300px;
+        margin: auto;
+    }
 }
