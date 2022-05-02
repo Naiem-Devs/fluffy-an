@@ -112,9 +112,14 @@ li {
     margin: auto;
 }
 
-::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar {
+    width: 10px;
+}
 
-::-webkit-scrollbar-thumb {background: var(--thm_color);border-radius: 10px;}
+::-webkit-scrollbar-thumb {
+    background: var(--thm_color);
+    border-radius: 10px;
+}
 
 
 /* default-css END 
@@ -441,7 +446,20 @@ i.ticket-bg img {
     transition: all .3s ease-in-out;
     display: inline-block;
     line-height: 1;
-}
+    position: relative;
+overflow: hidden;}
+
+.Mint button:after {
+    content: "";
+    position: absolute;
+    left: -25%;
+    top: -1px;
+    width: 106%;
+    height: 110%;
+    background: url(../img/btnShape.png);
+background-repeat: no-repeat;transition: all .6s ease-in-out;}
+
+.Mint button:hover:after {left: 100%;}
 
 .Mint button:hover {
     /* background: no-repeat; */
@@ -451,6 +469,12 @@ i.ticket-bg img {
 .Mint {
     margin-bottom: 20px;
 }
+
+.Mint a {display: inline-block;/* transform: scale(.9); */}
+
+.Mint a:focus,.Mint a:focus-within {transform: scale(.9);}
+
+.Mint a:focus-within {/* transform: scale(1); */}
 
 .hero_cont p {
     font-size: 24px;
